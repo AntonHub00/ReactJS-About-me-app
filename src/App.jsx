@@ -1,4 +1,9 @@
 import React from "react";
+import MainView from "./Views/MainView";
 
-const App = () => <h1>Testing here</h1>;
+const App = () => (
+  <>
+    <MainView />
+  </>
+);
 export default App;
