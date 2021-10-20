@@ -18,6 +18,7 @@ const MainView = () => {
             key={section.sectionId}
             title={section.sectionTitle}
             content={section.sectionContent}
+            id={section.sectionId}
             color={chooseRandomColor()}
           />
         ))}

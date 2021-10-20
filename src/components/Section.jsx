@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 // Needed because Tailwind CSS engine searches for whole classnames (cannot use
 // string templates to dinamically create classnames).
@@ -33,7 +34,7 @@ export const baseColors = {
   },
 };
 
-const Section = ({ title, content, link, color }) => {
+const Section = ({ title, content, id, color }) => {
   const [selectedColor, setSelectedColor] = useState("blue");
 
   useEffect(() => {
@@ -48,12 +49,14 @@ const Section = ({ title, content, link, color }) => {
         {title || "No title"}
       </div>
       <p className="my-4">{content || "No content"}</p>
-      <a
-        href={link || "#"}
-        className={`${baseColors[selectedColor].buttonBackground} text-white rounded-sm px-4 py-2 font-semibold`}
-      >
-        More
-      </a>
+      <Link to={`/section-details/${id}`}>
+        <button
+          type="button"
+          className={`${baseColors[selectedColor].buttonBackground} text-white rounded-sm px-4 py-2 font-semibold`}
+        >
+          More
+        </button>
+      </Link>
     </div>
   );
 };
