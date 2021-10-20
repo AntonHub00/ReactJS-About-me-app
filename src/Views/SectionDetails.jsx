@@ -7,8 +7,14 @@ const SectionDetails = () => {
   const { id } = useParams();
   const [sectionItems, setSectionItems] = useState([]);
 
-  const getSectionItemsById = () =>
-    data.data.find((section) => section.sectionId === Number(id)).sectionItems;
+  const getSectionItemsById = () => {
+    try {
+      return data.data.find((section) => section.sectionId === Number(id))
+        .sectionItems;
+    } catch (error) {
+      return [];
+    }
+  };
 
   useEffect(() => {
     setSectionItems(getSectionItemsById());
@@ -16,21 +22,23 @@ const SectionDetails = () => {
 
   return (
     <div className="p-6 flex flex-wrap gap-4 justify-center items-center min-h-screen">
-      {sectionItems.map(
-        ({
-          sectionItemId,
-          sectionItemTitle,
-          sectionItemContent,
-          sectionItemImage,
-        }) => (
-          <Card
-            key={sectionItemId}
-            title={sectionItemTitle}
-            content={sectionItemContent}
-            imgURL={sectionItemImage}
-          />
-        )
-      )}
+      {!sectionItems.length
+        ? "No section found"
+        : sectionItems.map(
+            ({
+              sectionItemId,
+              sectionItemTitle,
+              sectionItemContent,
+              sectionItemImage,
+            }) => (
+              <Card
+                key={sectionItemId}
+                title={sectionItemTitle}
+                content={sectionItemContent}
+                imgURL={sectionItemImage}
+              />
+            )
+          )}
     </div>
   );
 };
