@@ -2,7 +2,7 @@ import React from "react";
 import imageNotFound from "../images/imageNotFound.png";
 
 const Card = ({ imgURL, title, content }) => (
-  <div className="rounded-sm bg-white overflow-hidden max-w-xs shadow-md">
+  <div className="rounded-sm bg-white overflow-hidden w-80 shadow-md">
     <div
       style={{
         backgroundImage: `url(${imgURL || imageNotFound})`,
