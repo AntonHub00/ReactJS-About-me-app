@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 import Section, { baseColors } from "../components/Section";
 import data from "../api/mock.json";
 
@@ -10,8 +9,7 @@ const MainView = () => {
   };
 
   return (
-    <div className="md:container m-auto">
-      <NavBar />
+    <>
       <div className="py-6 flex flex-wrap gap-4">
         {data.data.map((section) => (
           <Section
@@ -23,7 +21,7 @@ const MainView = () => {
           />
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
