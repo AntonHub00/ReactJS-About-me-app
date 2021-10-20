@@ -43,7 +43,7 @@ const Section = ({ title, content, id, color }) => {
 
   return (
     <div
-      className={`${baseColors[selectedColor].sectionBackground} p-4 md:rounded-sm w-80 flex-auto`}
+      className={`${baseColors[selectedColor].sectionBackground} p-4 md:rounded-sm w-80 flex-auto relative pb-14`}
     >
       <div className="text-2xl font-bold text-gray-700">
         {title || "No title"}
@@ -52,7 +52,7 @@ const Section = ({ title, content, id, color }) => {
       <Link to={`/section-details/${id}`}>
         <button
           type="button"
-          className={`${baseColors[selectedColor].buttonBackground} text-white rounded-sm px-4 py-2 font-semibold`}
+          className={`${baseColors[selectedColor].buttonBackground} text-white rounded-sm px-4 py-2 font-semibold absolute bottom-4`}
         >
           More
         </button>
