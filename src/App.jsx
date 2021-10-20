@@ -1,13 +1,15 @@
 import React from "react";
-import { BrowserRouter, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import MainView from "./Views/MainView";
 import SectionDetails from "./Views/SectionDetails";
 
 const App = () => (
   <BrowserRouter>
-    <Route path="/home" render={MainView} />
-    <Route path="/" exact render={() => <Redirect to="/home" />} />
-    <Route path="/section-details/:id" render={SectionDetails} />
+    <Switch>
+      <Redirect from="/home" to="/" />
+      <Route path="/" exact component={MainView} />
+      <Route path="/section-details/:id" component={SectionDetails} />
+    </Switch>
   </BrowserRouter>
 );
 export default App;
