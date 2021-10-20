@@ -3,69 +3,69 @@
     {
       "sectionId": 1,
       "sectionTitle": "Music",
-      "sectionContent": "My favorite music is...",
+      "sectionContent": "A consider music as something that is always there to make my day a little bit better. I like almost every music style, but here you can get some of the styles I been listening lately.",
       "sectionItems": [
         {
           "sectionItemId": 1,
           "sectionItemTitle": "Reggaeton",
-          "sectionItemContent": "Reggaeton music is...",
-          "sectionItemImage": "An image of reggaeton music"
+          "sectionItemContent": "I like Reggaeton music because even though lyrics can be a little bit... inappropriate, it has good rhythm and melody. It is also very catchy.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.gWzNZk9PH8h2pUA6v6aBfgHaFj%26pid%3DApi&f=1"
         },
         {
           "sectionItemId": 2,
           "sectionItemTitle": "Trap",
-          "sectionItemContent": "Trap music is...",
-          "sectionItemImage": "An image of trap music"
+          "sectionItemContent": "What I like the most about Trap music are beats. I like instruments combination and the way they match what the rapper is trying to communicate.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AIGFcnk16IMGpwKbEtLWIgHaEK%26pid%3DApi&f=1"
         }
       ]
     },
     {
       "sectionId": 2,
       "sectionTitle": "Food",
-      "sectionContent": "My favorite food is...",
+      "sectionContent": "I'm not that picky about food, but here are listed some of the dishes or 'types' of food that I like the most.",
       "sectionItems": [
         {
           "sectionItemId": 1,
           "sectionItemTitle": "Italian",
-          "sectionItemContent": "Italian food is...",
-          "sectionItemImage": "An image of italian food"
+          "sectionItemContent": "I really like the combination of ingredients. I feel like every dish has a special combination where each ingredient fits perfectly.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cannolikitchen.com%2Fwp-content%2Fuploads%2F2017%2F10%2Flasagna.jpg&f=1&nofb=1"
         },
         {
           "sectionItemId": 2,
           "sectionItemTitle": "Mexican",
-          "sectionItemContent": "Mexican food is...",
-          "sectionItemImage": "An image of mexican food"
+          "sectionItemContent": "What is amazing about Mexican Cuisine is that has a large variety of dishes. You can get dishes with differect characteristics like spicy, sweet, meat, vegetables, soups, creamy, seafood and all what you can imagine.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chimuadventures.com%2Fblog%2Fwp-content%2Fuploads%2F2016%2F10%2Fshutterstock_423022279.jpg&f=1&nofb=1"
         },
         {
           "sectionItemId": 3,
           "sectionItemTitle": "Brazilian",
-          "sectionItemContent": "Brazilian food is...",
-          "sectionItemImage": "An image of brazilian food"
+          "sectionItemContent": "I don't really know much about Brazilian food, but what I can tell is that Coxinha is really really good.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Y9HKw_Xp2GmiMusclPJwPAHaFN%26pid%3DApi&f=1"
         }
       ]
     },
     {
       "sectionId": 3,
       "sectionTitle": "Hobbies",
-      "sectionContent": "My favorite hobby is...",
+      "sectionContent": "I used to have a ton of hobbies but due to school and work I do not have that much time anymore. Here I show you some of my favorite hobbies ever.",
       "sectionItems": [
         {
           "sectionItemId": 1,
           "sectionItemTitle": "Learning",
-          "sectionItemContent": "Learning is...",
-          "sectionItemImage": "An image of learning"
+          "sectionItemContent": "I'm always learning new things every day. I enjoy the process of learning and getting new knowledge. Every time I learn something new I feel a bit wiser.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thechangespace.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Ffull_wrap__1150_wide_%2Fpublic%2Fimages%2Farticles%2FLearning-concept-Chart-with-keywords-and-icons-694991904_4952x3300.jpg%3Fitok%3DrOGwyrh3&f=1&nofb=1"
         },
         {
           "sectionItemId": 2,
-          "sectionItemTitle": "Videogames",
-          "sectionItemContent": "Videogames are...",
-          "sectionItemImage": "An image of videogames"
+          "sectionItemTitle": "Video games",
+          "sectionItemContent": "I don't play video games too much, but I enjoy doing it if I play with friends because it makes it funnier.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F9e9tJOYn5mo%2Fmaxresdefault.jpg&f=1&nofb=1"
         },
         {
           "sectionItemId": 3,
           "sectionItemTitle": "Sports",
-          "sectionItemContent": "Sports are...",
-          "sectionItemImage": "An image of sports"
+          "sectionItemContent": "I like pretty much every sport. I think an excellent way to relieve stress and have fun at the same time.",
+          "sectionItemImage": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1000logos.net%2Fwp-content%2Fuploads%2F2017%2F05%2Femblem-Olympics.jpg&f=1&nofb=1"
         }
       ]
     }
