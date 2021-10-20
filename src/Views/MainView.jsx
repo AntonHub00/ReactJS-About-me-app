@@ -12,7 +12,7 @@ const MainView = () => {
   return (
     <div className="md:container m-auto">
       <NavBar />
-      <div className="py-6 flex flex-row gap-4 flex-wrap">
+      <div className="py-6 flex flex-wrap gap-4">
         {data.data.map((section) => (
           <Section
             key={section.sectionId}
