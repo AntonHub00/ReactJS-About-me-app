@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "sectionId": 1,
+      "sectionTitle": "Music",
+      "sectionContent": "My favorite music is...",
+      "sectionItems": [
+        {
+          "sectionItemId": 1,
+          "sectionItemTitle": "Reggaeton",
+          "sectionItemContent": "Reggaeton music is...",
+          "sectionItemImage": "An image of reggaeton music"
+        },
+        {
+          "sectionItemId": 2,
+          "sectionItemTitle": "Trap",
+          "sectionItemContent": "Trap music is...",
+          "sectionItemImage": "An image of trap music"
+        }
+      ]
+    },
+    {
+      "sectionId": 2,
+      "sectionTitle": "Food",
+      "sectionContent": "My favorite food is...",
+      "sectionItems": [
+        {
+          "sectionItemId": 1,
+          "sectionItemTitle": "Italian",
+          "sectionItemContent": "Italian food is...",
+          "sectionItemImage": "An image of italian food"
+        },
+        {
+          "sectionItemId": 2,
+          "sectionItemTitle": "Mexican",
+          "sectionItemContent": "Mexican food is...",
+          "sectionItemImage": "An image of mexican food"
+        },
+        {
+          "sectionItemId": 3,
+          "sectionItemTitle": "Brazilian",
+          "sectionItemContent": "Brazilian food is...",
+          "sectionItemImage": "An image of brazilian food"
+        }
+      ]
+    },
+    {
+      "sectionId": 3,
+      "sectionTitle": "Hobbies",
+      "sectionContent": "My favorite hobby is...",
+      "sectionItems": [
+        {
+          "sectionItemId": 1,
+          "sectionItemTitle": "Learning",
+          "sectionItemContent": "Learning is...",
+          "sectionItemImage": "An image of learning"
+        },
+        {
+          "sectionItemId": 2,
+          "sectionItemTitle": "Videogames",
+          "sectionItemContent": "Videogames are...",
+          "sectionItemImage": "An image of videogames"
+        },
+        {
+          "sectionItemId": 3,
+          "sectionItemTitle": "Sports",
+          "sectionItemContent": "Sports are...",
+          "sectionItemImage": "An image of sports"
+        }
+      ]
+    }
+  ]
+}
