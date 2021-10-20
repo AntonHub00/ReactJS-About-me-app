@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 // Needed because Tailwind CSS engine searches for whole classnames (cannot use
 // string templates to dinamically create classnames).
-const baseColors = {
+export const baseColors = {
   red: {
     sectionBackground: "bg-red-200",
     buttonBackground: "bg-red-500",
